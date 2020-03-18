@@ -3,8 +3,8 @@ def square_array(array)
   counter = 0 
   while counter < array[counter] do 
     new_array.push(array[counter]**2)
-    puts new_array
     counter += 1 
+    return square_array
   end
 end 
-return square_array
+
